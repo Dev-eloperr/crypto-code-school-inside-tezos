@@ -43,18 +43,20 @@ export default function interaction() {
     const [name, setName]= useState( '' );
     const [hor, setHor]= useState( '' );
     const [ver, setVer]= useState( '' );
+    const [shoot, setShoot]= useState( '' );
   return (
       
     <div>
         <input type="text" placeholder="name" onChange={e => setName(e.target.value)}></input>
       <button>change_name</button>
         <br></br><br></br>
-        <input type="numeric" placeholder="val" onChange={e => setHor(e.target.value)}></input>
+        <input type="numeric" placeholder="horizontal val" onChange={e => setHor(e.target.value)}></input>
       <button >move_horizontally</button>
       <br></br><br></br>
-      <input type="text" placeholder="val" onChange={e => setVer(e.target.value)}></input>
+      <input type="text" placeholder="vertical val" onChange={e => setVer(e.target.value)}></input>
       <button >move_vertically</button>
       <br></br><br></br>
+      <input type="text" placeholder="shoot alien" onChange={e => setShoot(e.target.value)}></input>
       <button >Shoot_alien</button>
     </div>
   );
