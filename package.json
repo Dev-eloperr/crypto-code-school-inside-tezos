@@ -10,9 +10,11 @@
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
     "@monaco-editor/react": "^3.1.2",
+    "acorn": "^8.0.1",
     "amplitude-js": "^5.11.0",
-    "gatsby": "^2.19.7",
+    "gatsby": "^2.24.53",
     "gatsby-background-image": "^1.0.1",
+    "gatsby-cli": "^2.12.91",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-amplitude-analytics": "^2.0.0",
     "gatsby-plugin-emotion": "^4.1.24",
@@ -40,8 +42,8 @@
     "polished": "^3.5.1",
     "prismjs": "^1.19.0",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.9.0",
     "react-responsive": "^8.0.3",
@@ -76,13 +78,15 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "analyze": "ANALYZE_BUNDLE_SIZE=true gatsby build",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit" 
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-default.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-default#readme",
+  "main": ".eslintrc.js"
 }

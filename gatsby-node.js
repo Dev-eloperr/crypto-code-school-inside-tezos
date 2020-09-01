@@ -26,4 +26,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     });
   });
+  actions.createPage({
+    path: "/interaction",
+    component: routing,
+    context: {},
+  })
 };
+
